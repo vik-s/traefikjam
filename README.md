@@ -1,10 +1,10 @@
+Master: 
+[![Release](https://github.com/kaysond/traefikjam/workflows/Release/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ARelease) [![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=master)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Amaster)
+
+Develop: [![Build](https://github.com/kaysond/traefikjam/workflows/Build/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ABuild) [![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=develop)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Adevelop)
+
 # TraefikJam (Beta)
 A Docker firewall for your reverse proxy network
-
-| Master | Develop |
-| ------------ | ------------ |
-|[![Release](https://github.com/kaysond/traefikjam/workflows/Release/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ARelease)|[![Build](https://github.com/kaysond/traefikjam/workflows/Build/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ABuild)|
-|[![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=master)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Amaster)|[![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=develop)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Adevelop)|
 
 ## Why TraefikJam?
 Reverse proxies are often used to authenticate external access to internal services, providing benefits such as centralized user management, access control, 2FA and SSO. In a typical Docker setup, multiple services are connected to the reverse proxy via a single network. If a user authenticates to one service and is able to compromise that service, such as by using [this Pi-Hole vulnerability](http://https://natedotred.wordpress.com/2020/03/28/cve-2020-8816-pi-hole-remote-code-execution/ "this Pi-Hole vulnerability"), that user will gain access to the entire network *behind* the reverse proxy, and can access every service on the network whether they would normally have permission or not.
