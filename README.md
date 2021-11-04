@@ -1,7 +1,7 @@
 Master: 
-[![Release](https://github.com/kaysond/traefikjam/workflows/Release/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ARelease) [![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=master)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Amaster)
-
+[![Release](https://github.com/kaysond/traefikjam/workflows/Release/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ARelease) [![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=master)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Amaster) 
 Develop: [![Build](https://github.com/kaysond/traefikjam/workflows/Build/badge.svg)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ABuild) [![CI](https://github.com/kaysond/traefikjam/workflows/CI/badge.svg?branch=develop)](https://github.com/kaysond/traefikjam/actions?query=workflow%3ACI+branch%3Adevelop)
+
 
 # TraefikJam (Beta)
 A Docker firewall for your reverse proxy network
